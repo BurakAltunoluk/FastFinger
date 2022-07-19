@@ -8,8 +8,8 @@
 import Foundation
 
 struct ScoreModel {
-    var bestScore: Int
-    init() {
-        bestScore = UserDefaults.standard.integer(forKey: "bestScore")
-    }
+    var bestScore = UserDefaults.standard.integer(forKey: "bestScore")
 }
+    
+    
+

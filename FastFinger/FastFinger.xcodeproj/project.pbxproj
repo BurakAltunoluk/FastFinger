@@ -14,6 +14,7 @@
 		600590BA287AECD800B4B352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600590B9287AECD800B4B352 /* Assets.xcassets */; };
 		600590BD287AECD800B4B352 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600590BB287AECD800B4B352 /* LaunchScreen.storyboard */; };
 		600590CA287AEDAF00B4B352 /* ScoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600590C9287AEDAF00B4B352 /* ScoreModel.swift */; };
+		60AF60832886BF6D0007E33B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60AF60822886BF6D0007E33B /* Constants.swift */; };
 		60DC76F9287B51B6007EF05E /* ScoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DC76F8287B51B5007EF05E /* ScoreVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		600590BC287AECD800B4B352 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		600590BE287AECD800B4B352 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		600590C9287AEDAF00B4B352 /* ScoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreModel.swift; sourceTree = "<group>"; };
+		60AF60822886BF6D0007E33B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		60DC76F8287B51B5007EF05E /* ScoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +67,6 @@
 				600590C4287AECF800B4B352 /* View */,
 				600590B0287AECD400B4B352 /* AppDelegate.swift */,
 				600590B2287AECD400B4B352 /* SceneDelegate.swift */,
-				600590B6287AECD400B4B352 /* Main.storyboard */,
 				600590B9287AECD800B4B352 /* Assets.xcassets */,
 				600590BB287AECD800B4B352 /* LaunchScreen.storyboard */,
 				600590BE287AECD800B4B352 /* Info.plist */,
@@ -76,6 +77,7 @@
 		600590C4287AECF800B4B352 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				600590B6287AECD400B4B352 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				600590C9287AEDAF00B4B352 /* ScoreModel.swift */,
+				60AF60822886BF6D0007E33B /* Constants.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				600590B1287AECD400B4B352 /* AppDelegate.swift in Sources */,
 				600590B3287AECD400B4B352 /* SceneDelegate.swift in Sources */,
 				600590CA287AEDAF00B4B352 /* ScoreModel.swift in Sources */,
+				60AF60832886BF6D0007E33B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

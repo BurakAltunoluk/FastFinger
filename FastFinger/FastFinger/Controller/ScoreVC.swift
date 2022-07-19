@@ -19,6 +19,7 @@ class ScoreVC: UIViewController {
     //MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         currentScore.text = "Your score: \(newScore)"
         bestScore.text = "Best score: \(bestScoreFromModel.bestScore)"
         if newScore > bestScoreFromModel.bestScore {
